@@ -19,12 +19,14 @@
 
   * HOW
 
-    - 安装 WSL 2 之前，必须启用“虚拟机平台”可选功能。 计算机需要虚拟化功能才能使用此功能
+    1. 安装 WSL 2 之前，必须启用“虚拟机平台”可选功能。 计算机需要虚拟化功能才能使用此功能
 
       ``` PowerShell
       dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
       ```
-      
+
+    2. 重启
+
 * 下载 Linux 内核更新包
 
   * HOW
