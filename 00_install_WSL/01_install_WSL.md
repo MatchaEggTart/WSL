@@ -42,3 +42,13 @@
       ``` PowerShell
       wsl --set-default-version 2
       ```
+
+* 更新
+
+  * HOW
+
+    - PowerShell
+
+      ``` PowerShell
+      wsl --update
+      ```
