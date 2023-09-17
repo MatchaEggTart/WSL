@@ -8,20 +8,21 @@
 
 * 添加镜像源
 
-    etc/pacman.d/mirrorlist
+    /etc/pacman.d/mirrorlist
 
     ``` conf
-    #阿里源
+    # 阿里源
     Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch
-    #中科大源
+    # 中科大源
     Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
-    #清华源
+    # 清华源
     Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+    
     ```
 
 * 添加 ArchLinuxCN
 
-    etc/pacman.conf
+    /etc/pacman.conf
 
     ``` conf
     [archlinuxcn]
@@ -38,6 +39,9 @@
     archlinuxcn源中的签名
 
     ``` sh
+    sudo pacman-key --init
+    sudo pacman-key --populate
+    sudo pacman -Syy archlinux-keyring
     sudo pacman -S archlinuxcn-keyring
     ```
 
