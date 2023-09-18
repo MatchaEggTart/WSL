@@ -46,4 +46,5 @@
 
     ``` shell
     sudo pacman -Syy
+    sudo pacman -Syu
     ```
