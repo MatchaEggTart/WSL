@@ -30,11 +30,7 @@
     Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
     ```
 
-    更新 pacman
-
-    ``` sh
-    sudo pacman -Syyu
-    ```
+* 更新密钥
 
     archlinuxcn源中的签名
 
