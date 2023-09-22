@@ -41,7 +41,6 @@
     sudo pacman -S archlinuxcn-keyring
     ```
 
-    
 * 更新 pacman
 
     ``` shell
