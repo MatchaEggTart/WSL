@@ -8,7 +8,7 @@
 
     ``` PowerShell
     cd E:\WSL\Arch\
-    .\Arch.exe backup -tar
+    .\Arch.exe backup --tar
     mkdir E:\WSL\Backup
     mv .\backup.tar E:\WSL\Backup\backup.tar
     ```
