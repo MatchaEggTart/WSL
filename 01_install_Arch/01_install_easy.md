@@ -8,14 +8,12 @@
 
     [ArchWSL Documentation](https://wsldl-pg.github.io/ArchW-docs/locale/zh-CN/How-to-Setup/)
 
-
 ## 步骤
 
 * 下载 [ArchWSL
 ](https://github.com/yuk7/ArchWSL/)
 
   将压缩包解压到要安装的路径
-
 
 * 安装
 
@@ -30,7 +28,6 @@
     ```
 
     等待安装完成即可
-
 
 * 设置 Root密码
 
@@ -49,7 +46,6 @@
     passwd
     ```
   
-
 * 设置默认用户
 
   * HOW
