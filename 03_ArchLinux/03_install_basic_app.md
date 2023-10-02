@@ -5,7 +5,7 @@
   * HOW
 
     ``` sh
-    sudo pacman -S base-devel gcc git openssh wget
+    sudo pacman -S base-devel gcc git openssh wget tree
     ```
 
 * 安装 yay
