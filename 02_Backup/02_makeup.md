@@ -34,3 +34,13 @@
     cd E:\WSL\Arch\
     .\Arch.exe install E:\WSL\Backup\backup.tar
     ```
+
+* 设置默认用户
+
+  * HOW
+
+    PowerShell 下输入
+
+    ``` PowerShell
+    .\Arch.exe config --default-user {username}
+    ```
